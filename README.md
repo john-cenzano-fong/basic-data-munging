@@ -12,9 +12,10 @@ How to run this
 To execute results, ensure you are in the repo's directory. The code should
 be able to run successfully with the latest versions of both python 2 and 3.
 
-::
-	python2 fever_population.py
-	python3 fever_population.py
+```
+python2 fever_population.py
+python3 fever_population.py
+```
 
 
 Results
@@ -22,13 +23,14 @@ Results
 With either version you should see the same results below, though your tab
 settings could make the output inconsistent:
 
-::
-	User file (user_data.csv) records: 398
-	Reading file (readings.json) records: 400
-	Joined count matches reading data
-	Fever entry count: 47
-	Fever Detection Results
-    
+```
+User file (user_data.csv) records: 398
+Reading file (readings.json) records: 400
+Joined count matches reading data
+Fever entry count: 47
+Fever Detection Results
+```
+ 
 	|Date		|Zip	|Unique Count	|Total Count	|Duplicate Detected	|
 	=================================================================================
 	|2018-03-15	|12198	|3		|4		|	X		|
